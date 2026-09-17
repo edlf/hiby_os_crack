@@ -15,14 +15,6 @@ This guide explains how to install `.upt` firmware on HiBy OS devices. This guid
     - *To recover the device*: Shut down the device (if it's not already), remove the bad `.upt` file from the SD card, place the fixed `.upt` file on the device, then use the failsafe install method below to install the fixed firmware.
 
 
-## Restoring the Original Firmware
-Installing custom firmware on a HiBy OS device is completely, and easily, reversible. The process for restoring the original firmware is the exact same process as installing custom firmware.
-
-To restore the stock firmware, just get the firmware `.upt` file from HiBy (or whatever) and follow the steps below to place the firmware file on the device and to install that firmware.
-
-Once the stock firmware has been installed, your device will be back to it's stock state.
-
-
 ## Placing the Firmware File on the Device
 Place the firmware (`.upt` file) in the root directory of the SD card
 - It is fine to leave other files/folders (such as music) on the SD card. Just make sure the firmware is in the root of the SD card
@@ -46,3 +38,11 @@ Once the firmware file is on the device, you can install it.
 1. Place the firmware onto the device using above instructions
 2. Press and hold the *volume up* button and the *power* button together until the "HIBY" logo shows up
 3. After finishing the update, the device should reboot on its own and automatically start the `hiby_player` binary
+
+
+## Restoring the Original Firmware
+Installing custom firmware on a HiBy OS device is completely, and easily, reversible. The process for restoring the original firmware is the exact same process as installing custom firmware.
+
+To restore the stock firmware, just get the firmware `.upt` file from HiBy (or whatever) and follow the steps below to place the firmware file on the device and to install that firmware.
+
+Once the stock firmware has been installed, your device will be back to it's stock state.
