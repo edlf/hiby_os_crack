@@ -48,6 +48,7 @@ We have collected documentation and created firmware unpacking/repacking scripts
 - [installing firmware](/guides/INSTALLING_FIRMWARE.md)
 - [firmware unpacking](/guides/UNPACKING.md)
 - [firmware repacking](/guides/REPACKING.md)
+- [unbricking](/guides/UNBRICKING.md)
 - [accessing ADB](/guides/ACCESSING_ADB.md)
 - [easter egg](/guides/EASTER_EGG.md)
 
