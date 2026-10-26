@@ -4,32 +4,35 @@
 Most of it also applies to other Hiby based devices like the TempoTec
 Variations v1.
 
-
 ## Before you start
 
 If you can boot the recovery mode (Vol+ and power key), you don’t need
 to follow this guide. Just place the correct upt file in the root of
 your SD and recover using the recovery mode.
 
-
 ## What you need
 
 - Cloner (cloner-2.5.80.2-windows_alpha or cloner-2.5.80.2-ubuntu_alpha).
     Heads up when you open the cloner the reported version is different
     from the one in the archive, this is expected (it will show 2.5.58.6).
+    Provided in this repo in the **tools** folder.
 
 - For windows users: Cloner driver (cloner-win32-driver)
+    Included in the cloner zip.
 
 - A recovery image (the upt file is missing u-boot, the recovery kernel
     and recovery rootfs so that is not enough). They are provided in this
     repo.
     Both have been updated to work with the 2.5.80.2 version of the cloner.
+    Provided in the **\<player name\>/firmware/recovery_cloner** folder.
+
+    Currently images for the R1, R3 II 2025 and TempoTec Variations v1
+    are available in this repo.
 
 - Know the bootrom key combo (for example the R1 uses the next track key)
 
 - Accepting that this will reset your device to factory settings, so all
     your customizations/settings will be lost.
-
 
 ## How to recovery your Hiby in case of a brick
 
@@ -60,17 +63,16 @@ your SD and recover using the recovery mode.
 
     ![cloner_step3](/resources/guides/UNBRICK.md/cloner_step3.png)
 
-
 ### How it should progress
 
-1.  Loading 1st and 2nd preloaders, checking if your device matches the
+1. Loading 1st and 2nd preloaders, checking if your device matches the
     supplied config and erasing the NAND.
     ![cloner_progress_1](/resources/guides/UNBRICK.md/cloner_step4_prog1.png)
 
-2.  Flashing the boot loader, kernel and rootfs images.
+2. Flashing the boot loader, kernel and rootfs images.
     ![cloner_progress_2](/resources/guides/UNBRICK.md/cloner_step4_prog2.png)
 
-3.  Successful flash, device reboots.
+3. Successful flash, device reboots.
     ![cloner_progress_3](/resources/guides/UNBRICK.md/cloner_step4_prog3.png)
 
 ## Troubleshooting
@@ -140,6 +142,8 @@ The recovery file is just a regular zip file.
 |
 └───security (something likely related to secure boot, Hiby is not using this)
 ```
+
+For more details check the Ingenic documentation provided with the cloner.
 
 ### Preloading a custom firmware
 
