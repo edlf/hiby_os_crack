@@ -65,6 +65,7 @@ We have collected documentation and created firmware unpacking/repacking scripts
 - [this README](/README.md)
 - [project TODO](/TODO.md)
 - [firmware file system structure](/docs/ROOTFS_STRUCTURE.md)
+- [charge management](/docs/CHARGE_MANAGEMENT.md)
 - R3ProII
     - [specs](/docs/r3proii/SPECS.md)
     - [output modes](/docs/r3proii/OUTPUT_MODES.md)
@@ -86,8 +87,13 @@ We have collected documentation and created firmware unpacking/repacking scripts
             - [XBurst1 Programming Manual](/docs/third_party/soc/XBurst1_CPU_core-programming_manual.pdf)
         - Components
             - [CW2015 datasheet](docs/third_party/components/cw2015-power-management-datasheet.pdf)
+                - Fuel Gauge
             - [MP2731 datasheet](docs/third_party/components/MP2731GQC.pdf)
+                - Charge Controller
             - [AXP2101 datasheet](docs/third_party/components/X-power-AXP2101_SWcharge_V1.0.pdf)
+                - Charge Controller
+            - [AP6212 datasheet](docs/third_party/components/AP6212_datasheet_EN.pdf)
+                - Wireless Controller
         - Halley 6 (Ingenic x1600 development board)
             - [hardware manual](/docs/third_party/halley6/Halley6_hardware_develop_V2.1.pdf) ([translated](/docs/third_party/halley6/Halley6_hardware_develop_V2.1.zh-CN_translated_EN.pdf))
             - [baseboard schematic](/docs/third_party/halley6/halley6_baseboard_v2.0.pdf)
