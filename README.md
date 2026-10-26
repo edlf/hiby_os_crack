@@ -22,7 +22,7 @@ This repo is for:
 > **How Can I Help❓**: If you want to help with this project, <ins>*whether you're a developer or not*</ins>, look at [HOW_CAN_I_HELP.md](/HOW_CAN_I_HELP.md).
 
 > [!TIP]
-> To talk with the community <ins>*whether you're a developer or not*</ins>, you can join the HiBy OS Modding discord: [https://discord.gg/gv3sfBmxu](https://discord.gg/gv3sfBmxu)
+> To talk with the community <ins>*whether you're a developer or not*</ins>, you can join the HiBy OS Modding discord: [https://discord.gg/mSEuafxPH](https://discord.gg/mSEuafxPH)
 >
 > I host the discord, and it has the same scope as this project (current HiBy OS devices)
 >
@@ -48,6 +48,7 @@ We have collected documentation and created firmware unpacking/repacking scripts
 - [installing firmware](/guides/INSTALLING_FIRMWARE.md)
 - [firmware unpacking](/guides/UNPACKING.md)
 - [firmware repacking](/guides/REPACKING.md)
+- [unbricking](/guides/UNBRICKING.md)
 - [accessing ADB](/guides/ACCESSING_ADB.md)
 - [easter egg](/guides/EASTER_EGG.md)
 
